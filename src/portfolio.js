@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Muhammad Imaad",
+  title: "Hello there, I'm Imaad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A published Machine Learning Engineer, and Full Stack Developer who's built machine learning data pipelines, intelligent web applications, computer vision systems and more using Next.js, Python, scikit-learn, PyTorch and other cool tools and technologies. 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13BOHzZ8kMU2TUllNVQYQQdwCdSJTFHdr/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/imaadMMI",
+  linkedin: "https://www.linkedin.com/in/muhammad-imaad",
+  gmail: "muhammadimaad.work@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +45,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Technologies I have worked with:",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Frontend / User Interfaces for web, mobile, and responsive dashboard applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Train deep learning models for real-time computer vision, NLP, and deploy autonomous AI agents"
+    ),
+    emoji(
+      "⚡ Design and build real-time interactive game mechanics and 3D graphic environments"
+    ),
+    emoji(
+      "⚡ Integrate cloud ecosystems, relational databases, and automated data processing pipelines"
     )
   ],
 
@@ -73,10 +74,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -87,10 +84,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -115,7 +108,73 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "scikit-learn",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+    skillName: "pytorch",
+    fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "tensorflow",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "pandas",
+      fontAwesomeClassname: "fas fa-table"
+    },
+    {
+      skillName: "numpy",
+      fontAwesomeClassname: "fas fa-calculator"
+    },
+    {
+      skillName: "matplotlib",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "ollama",
+      fontAwesomeClassname: "fas fa-comments"
+    },
+    {
+      skillName: "nlp",
+      fontAwesomeClassname: "fas fa-comments"
+    },
+    {
+      skillName: "opencv",
+      fontAwesomeClassname: "fas fa-camera"
+    },
+    {
+      skillName: "nextjs", 
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "flask",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+    {
+      skillName: "rest-api",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "powerbi",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {skillName: "blender", fontAwesomeClassname: "fas fa-cube"}
+    ,{
+      skillName: "unity",
+      fontAwesomeClassname: "fas fa-cube"
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,43 +185,51 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Wollongong",
+      logo: require("./assets/images/logo-shorthand-horizontal.png"),
+      subHeader: "Master of Computer Science (Machine Learning and Big Data)",
+      duration: "March 2026 - Present",
+      desc: "Focusing on advanced algorithms, data architectures, and deploying intelligence at scale.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Studying core areas including machine learning algorithms, big data analytics, and computer vision systems.",
+        "Engaging in independent learning strategies and industry trends to keep abreast of innovations in computer science.",
+        "Applying foundational methodologies and advanced technical theory to an upcoming individual capstone project."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Heriot-Watt University",
+      logo: require("./assets/images/HW-logo.jpeg"),
+      subHeader: "BSc (Hons) Computer Science (Artificial Intelligence)",
+      duration: "September 2021 - July 2025",
+      desc: "Graduated with First Class Honours and recognized multiple times for outstanding academic achievement.",
+      descBullets: [
+        "Received the Deputy Principal's Award for Academic Excellence three separate times.",
+        "Achieved high performance across core curriculum including Data Mining and Machine Learning, 3D Graphics and Animation, Intelligent Robotics, and Data Visualisation.",
+        "Authored and published research on a real-time smartphone-based computer vision system at the AAAI Conference 2025."
+      ]
     }
   ]
 };
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "AI/ML Theory", // High proficiency based on 1st Class Honours and academic excellence awards
+      progressPercentage: "90%" 
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Full Stack & UI Design", // Proven experience rebuilding dashboards from scratch and managing architectures
+      progressPercentage: "80%" 
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Data Analytics & ML Frameworks", // Applied scikit-learn, PyTorch, ETL pipelines, and PowerBI dashboards
+      progressPercentage: "80%" 
+    },
+    {
+      Stack: "Game Design & 3D Graphics", // Hands-on work with Unity, Unreal Engine, Godot, and Blender
+      progressPercentage: "65%" 
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +241,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Machine Learning Intern",
+      company: "Coding Samurai",
+      companylogo: require("./assets/images/codingSamurai.jpg"), // Ensure you add this logo asset or use a default
+      date: "Jan 2026 – Feb 2026",
+      desc: "Implemented end-to-end predictive modeling and natural language processing pipelines using Python-based workflows.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a Customer Churn Prediction model utilizing behavioral and demographic data to identify at-risk users through advanced feature engineering and model tuning.",
+        "Built a Sentiment Analysis pipeline for tweets involving extensive data cleaning, preprocessing, and feature extraction to classify emotional intent and social signals.",
+        "Leveraged data visualization libraries and frameworks like scikit-learn and Keras to execute robust performance evaluations."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer and Data Engineer",
+      company: "Sentiment AI",
+      companylogo: require("./assets/images/sentiment_ai_logo.jpg"), // Ensure you add this logo asset or use a default
+      date: "Aug 2025 – Oct 2025",
+      desc: "Delivered core technical infrastructure spanning user interface design, data engineering, and internal testing platforms under tight production deadlines.",
+      descBullets: [
+        "Rebuilt a client dashboard from scratch in one week, taking full ownership of UI design, frontend development, and backend data integration to facilitate immediate business reporting.",
+        "Engineered automated ETL pipelines to process raw, unstructured CSV logs into actionable behavioral insights for client-facing applications.",
+        "Developed robust backend APIs for ontology databases and internal orchestrations used in AI voice agent evaluation."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Marketing Lead",
+      company: "Google Developer Students Club",
+      companylogo: require("./assets/images/gdsc.png"), // Ensure you add this logo asset or use a default
+      date: "Sep 2023 – Aug 2024",
+      desc: "Spearheaded growth marketing strategies and coordinated cross-functional content production teams for community outreach.",
+      descBullets: [
+        "Led a data-driven social media strategy that boosted page interaction by 457% and increased total impressions by 215% through optimized content distribution.",
+        "Managed large-scale event workflows including DevFest 23, successfully scaling community engagement to reach over 4,500 new unique accounts.",
+        "Analyzed granular community interaction metrics to optimize speaker session visibility and target messaging profiles."
+      ]
     }
   ]
 };
@@ -245,57 +323,92 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
+// Achievements Section
+
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Hackathons, Award Letters and Some Cool Game Dev Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AAAI Scientific Publication",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "First-author and published research at the AAAI scientific conference (2025) on a deployable, real-time smartphone hybrid computer vision system for visually impaired crosswalk navigation, optimized via TFLite.",
+      image: require("./assets/images/aaai.jpg"),
+      imageAlt: "AAAI Conference Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Published Paper",
+          url: "https://doi.org/10.1609/aaaiss.v6i1.36057"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Deputy Principal's Award for Academic Excellence",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Received the prestigious award 3 separate times during my Bachelor of Science in Computer Science (Artificial Intelligence) for maintaining an exceptional academic record.",
+      image: require("./assets/images/HW-logo.jpeg"), // Ensure you add this asset or use a default university logo
+      imageAlt: "Heriot-Watt Academic Excellence Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Award 2025",
+          url: "https://www.linkedin.com/in/muhammad-imaad/overlay/Certifications/1449688249/treasury/?profileId=ACoAAEEazb0BqOdCg1HGPpt43IRXPUCXRqzX49U"
+        },
+        {
+          name: "Award 2023",
+          url: "https://www.linkedin.com/in/muhammad-imaad/overlay/Certifications/1449822371/treasury/?profileId=ACoAAEEazb0BqOdCg1HGPpt43IRXPUCXRqzX49U"
+        },
+        {
+          name: "Award 2022",
+          url: "https://www.linkedin.com/in/muhammad-imaad/overlay/Certifications/1449938675/treasury/?profileId=ACoAAEEazb0BqOdCg1HGPpt43IRXPUCXRqzX49U"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "NASA Space Apps Challenge Global Honourable Mention",
+      subtitle:
+        "Garnered an Honourable Mention at the Global Level of the NASA hackathon with team Titan's Frontier, contributing to the game scripting in GDScript, custom visual styling, and trailer production.",
+      image: require("./assets/images/nasa.png"),
+      imageAlt: "NASA Space Apps Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Hackathon Project",
+          url: "https://nasa-titanvoyagers.netlify.app/" // Add your project link if available
+        }
+      ]
+    },
+    {
+      title: "3D Game & Experience Creator",
+      subtitle:
+        "Shipped physics-based and turn-based 3D multiplayer games 'Rizzy Runner' and 'Alen: Lost and Hunted' using Unity, Mixamo, and C#, integrating path-planning AI NPCs and hosting deployments on Itch.io.",
+      image: require("./assets/images/unity.png"),
+      imageAlt: "Unity Game Engine Logo",
+      footerLink: [
+        {
+          name: "Alen: Lost and Hunted",
+          url: "https://areejahmed2149.itch.io/alen-lost-and-hunted-playtesting" // You can substitute with your specific user link
+        },
+        {
+          name: "Rizzy Runner",
+          url: "https://github.com/imaadMMI/Rizzy-Runner" // You can substitute with your specific user link
+        }
+      ]
+    },
+    {
+      title: "Deriv AI Talent Sprint & AI Genesis",
+      subtitle:
+        "Built autonomous AI-powered HR systems and multi-stage agentic procurement workflows (ProcurePilot) using Google ADK and Opus during intense 48-hour sprint hackathons with lablab.ai.",
+      image: require("./assets/images/lablab.jpeg"),
+      imageAlt: "LabLab AI Logo",
+      footerLink: [
+        {
+          name: "View Deriv Hackathon Project",
+          url: "https://github.com/imaadMMI/Deriv-Talent-Sprint"
+        },
+        {
+          name: "View AI Genesis Hackathon Project",
+          url: "https://github.com/imaadMMI/AI-GENESIS-2025-TEAM-CHICKEN-NUGGETS"
         }
       ]
     }
@@ -383,7 +496,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

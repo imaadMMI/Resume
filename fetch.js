@@ -94,7 +94,8 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
+// Only fetch if MEDIUM_USERNAME is defined AND not an empty string
+if (MEDIUM_USERNAME !== undefined && MEDIUM_USERNAME.trim() !== "") {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
@@ -127,4 +128,6 @@ if (MEDIUM_USERNAME !== undefined) {
   });
 
   req.end();
+} else {
+  console.log("Skipping Medium blogs fetch (no username provided).");
 }
