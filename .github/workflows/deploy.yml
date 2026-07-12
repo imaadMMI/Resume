@@ -17,25 +17,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3 # If you're using actions/checkout@v3 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        uses: actions/checkout@v3 
         with:
           persist-credentials: false
 
       - name: Setup Node.js 🔧
         uses: actions/setup-node@v3.8.1
         with:
-          node-version: 18.x
+          node-version: 20.x # Upgraded from 18.x to support modern project builds
 
-      - name: Update npm 🚀
-        run: npm install -g npm@latest
+      # Removed the faulty global npm update step entirely to eliminate version mismatches
 
-      - name: Install and Build 🔧 # Build the Project
+      - name: Install and Build 🔧 
         run: |
           npm install
           npm run build
+          
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: build # The folder the action should deploy.
+          token: ${{ secrets.REACT_APP_GITHUB_TOKEN }} 
+          BRANCH: gh-pages 
+          FOLDER: build
